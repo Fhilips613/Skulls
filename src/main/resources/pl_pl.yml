@@ -1,0 +1,167 @@
+gui:
+  custom category list:
+    title: '&eGłowy &8> &7Własne Kategorie'
+    items:
+      new:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Utwórz nową kategorię'
+        name: <GRADIENT:DD5E89>&lNowa Kategoria</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8Zobacz głowy w tej kategorii'
+          - '&7Łącznie głów&F: &b%category_size%'
+          - ''
+          - '&e&lKliknij &8» &7Zobacz kategorię'
+        name: '%category_name%'
+  skulls list:
+    title:
+      all: '&eGłowy &8> &7Wszystkie'
+      search: '&eGłowy &8> &7%search_phrase%'
+      favourites: '&eGłowy &8> &7Ulubione'
+      category: '&eGłowy &8> &7%category_name%'
+    items:
+      skull:
+        lore:
+          take: '&e&lLewy klik &8» &7Weź jedną'
+          blocked: '&c&oZakup zablokowany'
+          favourited: '&e&lDodano do ulubionych'
+          edit: '&b&lWciśnij 1 &8» &7Edytuj tę głowę'
+          price: '&7Cena: &a$%skull_price%'
+          un favourite: '&e&lPrawy klik &8» &7Usuń z ulubionych'
+          id: '&7ID: &e%skull_id%'
+          favourite: '&e&lPrawy klik &8» &7Dodaj do ulubionych'
+          tags: '&7Tagi: &e%skull_tags%'
+        name: '&e%skull_name%'
+  buttons:
+    next:
+      lore: '&7Kliknij, aby przejść do następnej strony'
+      name: '&eNastępna Strona'
+    exit:
+      lore: '&7Kliknij, aby zamknąć menu'
+      name: '&cWyjście'
+    previous:
+      lore: '&7Kliknij, aby wrócić do poprzedniej strony'
+      name: '&ePoprzednia Strona'
+    back:
+      lore: '&7Kliknij, aby wrócić'
+      name: '&aWróć'
+  edit:
+    title: '&eGłowy &8> &7Edycja &8> &7%skull_id%'
+    items:
+      blocked:
+        lore:
+          - ''
+          - '&7Zablokowane&f: %is_true%'
+          - ''
+          - '&e&lKliknij &8» &7Przełącz status blokady'
+        name: <GRADIENT:DD5E89>&lBlokada Głowy</GRADIENT:fbc7d4>
+      price:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Edytuj cenę głowy'
+        name: <GRADIENT:DD5E89>&lCena Głowy</GRADIENT:fbc7d4>
+      name:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Zmień nazwę głowy'
+        name: <GRADIENT:DD5E89>&lNazwa Głowy</GRADIENT:fbc7d4>
+      add category:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Dodaj do innej kategorii'
+        name: <GRADIENT:DD5E89>&lDodaj do Kategorii</GRADIENT:fbc7d4>
+  main:
+    title: '&eGłowy'
+    items:
+      search:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Szukaj głów'
+        name: <GRADIENT:DD5E89>&lSzukaj</GRADIENT:fbc7d4>
+      favourites:
+        lore:
+          - '&7Zbiór wszystkich twoich ulubionych głów'
+          - '&7Głowy, które dodałeś do ulubionych.'
+          - ''
+          - '&e&lKliknij &8» &7Zobacz ulubione'
+        name: <GRADIENT:DD5E89>&lUlubione</GRADIENT:fbc7d4>
+      custom categories:
+        lore:
+          - ''
+          - '&e&lKliknij &8» &7Zobacz więcej kategorii'
+        name: <GRADIENT:DD5E89>&lWięcej Kategorii</GRADIENT:fbc7d4>
+      category:
+        lore:
+          - '&8Zobacz głowy w tej kategorii'
+          - '&7Łącznie głów&F: &b%category_size%'
+          - ''
+          - '&e&lKliknij &8» &7Zobacz kategorię'
+        name: '&e%category_name%'
+  custom category selector:
+    title: '&eGłowy &8> &7Wybierz Kategorię'
+    items:
+      category:
+        lore: '&e&lKliknij &8» &7Wybierz kategorię'
+        name: '%category_name%'
+input:
+  category create:
+    subtitle: '&fWpisz ID nowej kategorii'
+    title: '&eUtwórz Kategorię'
+  skull edit:
+    price: '&fWpisz nową cenę głowy'
+    name: '&fWpisz nową nazwę głowy'
+    title: '&eEdytuj Głowę'
+  skull search:
+    subtitle: '&fWpisz frazę wyszukiwania na czacie'
+    title: '&eSzukaj Głów'
+categories:
+  food and drinks: Jedzenie i Napoje
+  humanoids: Gracze
+  plants: Rośliny
+  blocks: Bloki
+  monsters: Potwory
+  alphabet: Alfabet
+  animals: Zwierzęta
+  decoration: Dekoracje
+  humans: Ludzie
+  misc: Różne
+error:
+  not a number: '&4%value% &cnie jest prawidłową liczbą!'
+  no permission: '&cNie masz wystarczających uprawnień!'
+  player offline: '&4%value% &cjest teraz offline!'
+  not enough money: '&cNie masz wystarczającej ilości pieniędzy!'
+  player not found: '&4%value% &cnie znaleziono!'
+button:
+  number key: 'Wciśnij klawisz #'
+  left click: Lewy Klik
+  right click: Prawy Klik
+  left shift click: Shift + Lewy Klik
+  middle click: Środkowy Klik
+  drop key: Wciśnij klawisz wyrzucania
+misc:
+  id taken: '&cTo ID kategorii jest już używane!'
+  skull not found: '&cNie znaleziono głowy o tym ID'
+  no skull info: '&cNie można ustalić ID tej głowy'
+  category permission: '&cNie masz dostępu do tej kategorii!'
+  loading: '&cProszę czekać, głowy nadal się ładują'
+  purchase success: '&aZakup udany!'
+conditionals:
+  is true: '&ATak'
+  is allowed: '&aDozwolone'
+  is false: '&cNie'
+  'false': '&CNie'
+  is disallowed: '&cNiedozwolone'
+  'true': '&aTak'
+  closed: '&cZamknięte'
+  disabled: '&cWyłączone'
+  enabled: '&aWłączone'
+  open: '&aOtwarte'
+skull:
+  name: '&e%skull_name%'
+inspect info:
+  - '&8&m-----------------------------------------------------'
+  - ''
+  - '&eID Głowy&f: &a%skull_id%'
+  - ''
+  - '&8&m-----------------------------------------------------'
